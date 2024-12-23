@@ -17,7 +17,7 @@ function App() {
         <h2>Palm NFTs</h2>
         <p>Each Palm NFT you own increases your maximum ISLAND gains per cycle.</p>
         <div id="palm-dropdown-container">
-          <label for="palm-dropdown">Select Palm NFT:</label>
+          <label htmlFor="palm-dropdown">Select Palm NFT:</label>
           <select id="palm-dropdown">
             <option value="Iron">Iron Palm</option>
             <option value="Bronze">Bronze Palm</option>
