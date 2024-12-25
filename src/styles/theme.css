@@ -1,0 +1,33 @@
+/* Dark theme styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0f1014] text-white font-sans;
+  }
+}
+
+@layer components {
+  .gradient-button {
+    @apply relative overflow-hidden transition-all duration-300;
+    background: linear-gradient(to right, #ffe500, #cf68fb, #4fffbc);
+  }
+
+  .gradient-button:hover {
+    background: linear-gradient(to right, #4fffbc, #ffe500, #cf68fb);
+  }
+
+  .calculator-card {
+    @apply bg-[#16171d] rounded-xl shadow-xl p-6;
+  }
+
+  .input-dark {
+    @apply bg-[#262933] border-[#262933] text-white placeholder-gray-400 rounded-lg p-3;
+  }
+
+  .select-dark {
+    @apply bg-[#262933] border-[#262933] text-white rounded-lg p-3;
+  }
+}
